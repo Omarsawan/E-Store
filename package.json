@@ -10,7 +10,7 @@
     "prettierts": "prettier --config .prettierrc src  --write",
     "prettierjs": "prettier --config .prettierrc dist/**/*.js --write",
     "tsc": "tsc",
-    "test": "ENV=test && npx tsc && jasmine"
+    "test": "ENV=test && npx tsc && db-migrate --env test up && jasmine && db-migrate db:drop test"
   },
   "author": "Udacity",
   "license": "ISC",
