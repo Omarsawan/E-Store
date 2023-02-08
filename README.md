@@ -2,8 +2,8 @@
 A simple E-Commerce project
 ## Getting Started
 
-This repo contains a basic Node and Express app. To get started, clone this repo and run `yarn` in your terminal at the project root.
-
+- This repo contains a basic Node and Express app. To get started, clone this repo and run `yarn` in your terminal at the project root.
+- database.json file and .env file should be in .gitignore because they contain passwordds and sensitive data but since this project is just for practice so I kept them public.
 ## Project setup
 
 ### 1. PSQL user creation
